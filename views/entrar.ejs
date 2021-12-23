@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <title>Entrar</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/entrar.css">
+  <link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Readex+Pro:wght@200&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <section class="vh-100" style="background-color:rgb(60, 60, 60);">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="card shadow-2-strong" style="border-radius: 1rem;">
+            <div class="card-body p-5 text-center">
+
+              <h3 class="mb-5">Login</h3>
+
+              <form action="/entrar/env" method="post">
+                <div class="form-outline mb-4">
+                  <input type="email" id="typeEmailX-2" name = "email" class="form-control form-control-lg" />
+                  <label class="form-label" for="typeEmailX-2">Email</label>
+                </div>
+
+                
+                <div class="form-outline mb-4">
+                  <input type="password" id="typePasswordX-2" name = "senha" class="form-control form-control-lg" />
+                  <label class="form-label" for="typePasswordX-2">Senha</label>
+                </div>
+
+
+                <button class="btn btn-primary btn-lg btn-block" type="submit">Login</button>
+
+              </form>
+
+              <hr class="my-4">
+
+
+              <div class="google">
+                <a
+                  href="https://accounts.google.com/signin/v2/challenge/pwd?continue=https%3A%2F%2Fmyaccount.google.com%2Fdeleteservices%3Fhl%3Dpt&service=accountsettings&hl=pt&osid=1&rart=ANgoxccyo7wnBq6sysrXPN5sTQxyMaYlRMYaauD-hPfMgb-GSU54Q6rSlsE1O-A6hg7MxB2eTTZ7iQ_jfDnobYa-1uaxuNVQPw&TL=AM3QAYYDVh6jxAq1V4L5xd-gWqCwmDClBFTiit7Ay0PPJxuALsG3owcFhlQNYwyc&flowName=GlifWebSignIn&cid=1&flowEntry=ServiceLogin">
+                  <button class="btn btn-lg btn-block btn-primary" style="background-color: #dd4b39;" type="submit"><i
+                      class="fab fa-google me-2"></i>Login com google</button>
+                </a>
+              </div>
+
+              <div>
+                <a href="https://www.facebook.com">
+                  <button class="btn btn-lg btn-block btn-primary mb-2" style="background-color: #3b5998;"
+                    type="submit"><i class="fab fa-facebook-f me-2"></i>Login com facebook</button>
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+</body>
+
+</html>

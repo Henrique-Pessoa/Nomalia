@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+img{
+    max-width:100%;
+    display:block;
+}
+
+h1{
+    size:10px;
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    padding: 5px;
+}
+
+h2{
+    font-size: 70px;
+    font-family: 'Cormorant Garamond', serif;
+    margin-top:50px;
+}
+
+.google{
+    margin-bottom: 15px;
+}
